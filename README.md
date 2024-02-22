@@ -2,131 +2,235 @@
 Contains a detailed walkthrough of our software engineering process as well as explanations of some of our key design decisions.
 
 ## January 3, 2024
-- **Activity:** Set up MySQL Database
-- **Details:** Today, we initiated our project by setting up the MySQL database using MySQL Workbench. Establishing the database infrastructure is crucial for storing user data and other essential information for our web application.
+**Activity:** Database Setup
+- **Details:** Downloaded MySQL and MySQL Workbench and created a database for our webpage.
+- **Contributors:** Bhargav
+- **Notes:** This foundational step ensures the project has a structured database to store necessary information.
 
 ## January 6, 2024
-- **Activity:** Project Initialization
-- **Details:** We created the initial project directories and installed necessary packages using npm. Proper project organisation and package management are fundamental for ensuring a streamlined development process.
+**Activity:** Project Initialization
+- **Details:** Created the initial project directories and downloaded relevant packages (npm).
+- **Contributors:** Bhargav
+- **Notes:** Setting up the project environment is crucial for smooth development and deployment processes.
 
 ## January 13, 2024
-- **Activity:** Basic Website Structure
-- **Details:** We worked on laying down the foundational structure of our website. This involves creating the necessary HTML files, defining routes, and setting up the basic layout of our application.
+**Activity:** Website Structure Creation
+- **Details:** Created the basic website structure.
+- **Contributors:** Bhargav
+- **Notes:** Establishing a clear website structure lays the foundation for subsequent development tasks.
 
 ## January 15, 2024
-- **Activity:** Frontend Development Kickoff
-- **Details:** Today, we focused on frontend development tasks. This included designing the Sign Up and Log In pages with basic form structures. Additionally, we began crafting an About Us page to give users insights into our team and project vision.
+**Activity:** Form Structure
+- **Details:** Created a basic form structure for the Sign-Up and Log-In pages.
+- **Contributors:** Bhargav
+- **Notes:** Form structures are essential for user interaction.
+
+**Activity:** About Us Page Description
+- **Details:** Wrote a mock description for the About Us page.
+- **Contributors:** Padraig
+- **Notes:** About Us content adds depth to the website's presentation.
 
 ## January 17, 2024
-- **Activity:** User Interaction Features
-- **Details:** We implemented the topic selection page, allowing users to customise their browsing experience by selecting their favourite topics. User interaction features are essential for enhancing user engagement and personalisation.
+**Activity:** Topic Selection Page Development
+- **Details:** Developed the topic selection page for users to choose their favourite topics to browse.
+- **Contributors:** Bhargav
+- **Notes:** Customization features improve user experience and engagement with the website.
 
 ## January 19, 2024
-- **Activity:** Initial Homepage Design
-- **Details:** We designed a draft version of the homepage, which serves as the first point of interaction for users before logging in. A visually appealing and intuitive homepage is crucial for making a positive first impression.
+**Activity:** Homepage Draft Design
+- **Details:** Designed and created a draft homepage that displays before logging in.
+- **Contributors:** Bhargav
+- **Notes:** A well-designed homepage sets the tone for the website and guides users through its features.
 
 ## January 20, 2024
-- **Activity:** CSS Enhancement
-- **Details:** Today, we focused on improving the CSS and layout of various pages including Home, SignUp, LogIn, and About Us. A polished and consistent design not only enhances user experience but also reflects the professionalism of our application.
+**Activity:** CSS and Layout Improvements
+- **Details:** Designed and improved the CSS and layout of several pages.
+- **Contributors:** Bhargav
+- **Notes:** CSS and layout improvements contribute to a more polished and professional-looking website.
 
 ## January 22, 2024
-- **Activity:** Integration of NewsAPI
-- **Details:** We integrated the NewsAPI to fetch real-time news articles, laying the groundwork for displaying dynamic content on the homepage. Incorporating external APIs adds value to our application by providing up-to-date information to users.
+**Activity:** NewsAPI Integration
+- **Details:** Implemented the NewsAPI and began adding content for the LoggedIn Home page.
+- **Contributors:** Bhargav, Padraig
+- **Notes:** Integrating external APIs adds dynamic content to the website, enhancing its utility.
 
 ## January 23, 2024
-- **Activity:** Refinement of UI Elements
-- **Details:** Today, we focused on refining the UI elements, including adjusting CSS for form pages and enhancing the display of articles. A clean and intuitive user interface is essential for ensuring a seamless user experience.
+**Activity:** CSS Adjustment and Profile Section Implementation
+- **Details:** Adjusted CSS for the form pages and styled article displays. Added the profile section, implemented topic choices, and enabled the display of one article at a time.
+- **Contributors:** Bhargav, Padraig
+- **Notes:** CSS adjustments ensure consistent styling and presentation across the website. The profile section adds personalization to the user experience.
 
 ## January 24, 2024
-- **Activity:** Article Display Enhancement
-- **Details:** We further styled the article display and added functionality to load new articles dynamically. Providing users with a smooth browsing experience is a key aspect of our development process.
+**Activity:** Article Display Styling and Functionality
+- **Details:** Styled the article display and added functionality to load new articles.
+- **Contributors:** Bhargav, Padraig
+- **Notes:** Well-styled article displays improve readability and user engagement.
 
 ## January 25, 2024
-- **Activity:** Backend Database Management
-- **Details:** Today's focus was on modifying the SQL database to include functionality such as adding articles to user likes and ensuring data integrity. Proper database management is critical for storing and retrieving information efficiently.
+**Activity:** Homepage Enhancement
+- **Details:** Edited homepage code, added the like button to the homepage, and changed the SQL database to add article saving functionality.
+- **Contributors:** Bhargav, Padraig
+- **Notes:** Homepage enhancements increase user interaction and content accessibility.
 
 ## January 26, 2024
-- **Activity:** Bug Fixes and UI Improvements
-- **Details:** We addressed various bugs related to adding articles to the database, liking articles, and improved the UI of the homepage. Iterative bug fixing and UI enhancements are integral parts of our development cycle.
+**Activity:** Database Functionality and UI Fixes
+- **Details:** Fixed functionality issues related to adding and liking articles in the database. Addressed UI issues on the homepage.
+- **Contributors:** Bhargav, Padraig
+- **Notes:** Database functionality is crucial for data management, while UI fixes improve user experience.
 
 ## January 27, 2024
-- **Activity:** Enhancing User Experience
-- **Details:** Today, we completed the implementation of displaying liked articles on the navigation bar, providing users with quick access to their favorite content. Additionally, we fixed an issue with the like button image on the homepage, ensuring a clean browsing experience.
+**Activity:** Liked Articles Display
+- **Details:** Completed the display for Liked Articles on the navbar. Fixed Like Button image change on the homepage.
+- **Contributors:** Bhargav
+- **Notes:** Displaying Liked Articles enhances user convenience and encourages return visits.
 
 ## January 29, 2024
-- **Activity:** User Interaction Improvements
-- **Details:** We introduced a new feature to delete articles from the liked articles list, empowering users to manage their preferences effectively. Furthermore, we implemented a filtration function to exclude articles with null or removed fields, enhancing the quality of displayed content. On the profile side, we revamped the profile info display and added a convenient delete account button for users seeking account closure.
+**Activity:** Article Management Features
+- **Details:** Added a Delete Article from Liked Articles feature. Implemented filtration to omit articles with null or removed fields. Modified profile info display and added a delete account button.
+- **Contributors:** Bhargav, Padraig
+- **Notes:** Article management features improve user control over their saved content, while profile modifications enhance account management options.
 
 ## January 30, 2024
-- **Activity:** Data Management Refinement
-- **Details:** Today, we finalised the delete account implementation, ensuring the removal of all specific user information from the database tables. This step is crucial for maintaining data privacy and integrity across the platform.
+**Activity:** Account Deletion Functionality
+- **Details:** Completed the delete account implementation to delete all specific user info from all tables in the database.
+- **Contributors:** Bhargav, Padraig
+- **Notes:** Account deletion functionality enhances user privacy and data security.
 
 ## January 31, 2024
-- **Activity:** Feature Expansion
-- **Details:** We began implementing a load previous article feature, aiming to enhance user engagement by allowing them to revisit previously browsed content effortlessly.
+**Activity:** Article Navigation Feature
+- **Details:** Began the implementation of a load previous article feature.
+- **Contributors:** Bhargav
+- **Notes:** Article navigation features improve user engagement and content discovery.
 
 ## February 1, 2024
-- **Activity:** User Customization and Error Handling
-- **Details:** Today's focus was on improving user experience and system robustness. We added a default endpoint for users who don't choose any preselected topics, enhancing flexibility. Additionally, we started implementing a custom topic feature on user profiles, allowing users to personalize their content preferences. CSS improvements on the profile page and overall error checking on the sign-up form were also implemented, ensuring a smoother user journey.
+**Activity:** Customization Options
+- **Details:** Began implementing a custom topic feature on user profiles. Improved overall CSS on the profile page.
+- **Contributors:** Bhargav
+- **Notes:** Customization options enhance user personalization and satisfaction with the platform.
+
+**Activity:** Default Endpoint Addition
+- **Details:** Added a default endpoint for users selecting no preselected topics.
+- **Contributors:** Padraig
+- **Notes:** Ensures smooth functionality when users do not select any preselected topics.
 
 ## February 2, 2024
-- **Activity:** Social Sharing and UI Enhancement
-- **Details:** We introduced a share article button on the homepage, enabling users to share interesting articles with friends via email. Furthermore, we completed the implementation of the custom topic feature on user profiles and optimized the topic databases. CSS enhancements on the pre-logged-in homepage and significant improvements in error checking on the sign-up form were also achieved. Work continued on implementing the load previous article feature.
+**Activity:** Share Functionality and UI Improvements
+- **Details:** Added a Share Article Button on the homepage. Completed the implementation of the custom topic feature on user profiles. Redid topic databases. Improved CSS on the pre-logged-in homepage and enhanced error checking on the sign-up form.
+- **Contributors:** Bhargav, Padraig
+- **Notes:** Share functionality encourages user engagement and content sharing, while UI improvements enhance overall user experience.
 
 ## February 3, 2024
-- **Activity:** Streamlining Processes
-- **Details:** We conducted a cleanup of all files and simplified processes to ensure a more efficient development workflow. Maintaining clean and organized code is essential for long-term maintainability and scalability.
+**Activity:** File Cleanup and Process Simplification
+- **Details:** Cleaned up all files and simplified processes.
+- **Contributors:** Bhargav, Padraig
+- **Notes:** File cleanup and process simplification optimise project organisation and workflow efficiency.
 
 ## February 4, 2024
-- **Activity:** User Communication and Validation
-- **Details:** Today, we began implementing the functionality to send welcome emails to new users and added checks for duplicate usernames during the sign-up process. Effective communication with users and validation of input data are critical for a smooth user experience.
+**Activity:** Password Hashing Implementation
+- **Details:** Began the implementation of password hashing and a specific article searching feature.
+- **Contributors:** Padraig
+- **Notes:** Password hashing enhances security, while the article searching feature improves content discovery.
 
 ## February 5, 2024
-- **Activity:** Security Enhancements
-- **Details:** We implemented user sessions, authentication, and more secure URLs to safeguard user data and protect against potential security threats. Security measures are essential for ensuring the confidentiality and integrity of user information.
+**Activity:** Security Implementation
+- **Details:** Implemented user sessions, authentication, and more secure URLs.
+- **Contributors:** Bhargav
+- **Notes:** Security implementations are crucial for protecting user data and ensuring safe interactions with the platform.
 
 ## February 6, 2024
-- **Activity:** Data Protection and Search Functionality
-- **Details:** Today, we started implementing password hashing to enhance data protection and security. Additionally, work began on a specific article searching feature, enabling users to find relevant content quickly and efficiently.
+**Activity:** Feature Development
+- **Details:** Continued the implementation of the specific article searching feature.
+- **Contributors:** Padraig
+- **Notes:** Feature development focuses on expanding platform functionality and user engagement.
 
 ## February 7, 2024
-- **Activity:** User Input Validation and Feature Continuation
-- **Details:** We completed the implementation of duplicate username checks in the sign-up form, further enhancing data integrity and user experience. Work continued on the specific article searching feature, focusing on providing robust search functionality to users.
+**Activity:** User Input Validation
+- **Details:** Completed the implementation of duplicate username checks in the sign-up form. Continued working on a specific article searching feature.
+- **Contributors:** Bhargav
+- **Notes:** User input validation features improve data integrity and platform reliability.
 
 ## February 9, 2024
-- **Activity:** Feature Refinement
-- **Details:** Continued refinement and optimisation of the specific article searching feature to ensure accurate and relevant search results for users. Iterative improvements are essential for delivering a high-quality user experience.
+**Activity:** Feature Development
+- **Details:** Continued the implementation of the specific article searching feature.
+- **Contributors:** Bhargav
+- **Notes:** Feature development focuses on expanding platform functionality and user engagement.
 
 ## February 10, 2024
-- **Activity:** User Profile Enhancements
-- **Details:** We began implementing the profile picture selection feature on user profiles, allowing users to personalize their profiles further. Additionally, improvements were made to the navbar CSS for better navigation aesthetics.
+**Activity:** UI Enhancement and Feature Implementation
+- **Details:** Improved navbar CSS. Began the implementation of a pre-logged-in homepage interactive image. Began implementation of profile picture selection feature on the profile.
+- **Contributors:** Bhargav, Padraig
+- **Notes:** UI enhancements contribute to a more visually appealing and user-friendly platform, while new features add value and functionality.
 
 ## February 12, 2024
-- **Activity:** Visual Enhancements
-- **Details:** Work commenced on implementing an interactive image for the pre-logged-in homepage, enhancing visual appeal and user engagement. We also added the project logo into the tab title for brand recognition.
-
-## February 13, 2024
-- **Activity:** User Profile Completion
-- **Details:** We completed the implementation of the profile picture selection feature on user profiles, providing users with the ability to customize their profiles fully. Additionally, the interactive image for the pre-logged-in homepage was finalised, enriching the user experience.
+**Activity:** Homepage Enhancement
+- **Details:** Completed the implementation of the pre-logged-in homepage interactive image. Added logo into tab title.
+- **Contributors:** Bhargav
+- **Notes:** Homepage enhancements improve user engagement and retention.
 
 ## February 14, 2024
-- **Activity:** Feature Completion and Optimisation
-- **Details:** Today, we finalized the topic deletion feature and improved profile orientation for a more intuitive user experience. Work began on reducing API calls using lists and remodeling the load previous article button to optimise system performance.
-
-## February 15, 2024
-- **Activity:** UI Refinement and Development Completion
-- **Details:** We focused on improving the CSS and functionality of the sign-up form for a smoother user onboarding process. Development on the pre-logged-in homepage was completed, incorporating all planned features and enhancements. Work continued on reducing API calls and remodeling the load previous article button for improved efficiency.
-
-## February 16, 2024
-- **Activity:** Data Integrity Checks
-- **Details:** Implemented a check to ensure that duplicate articles are not displayed, enhancing the quality and reliability of displayed content for users.
+**Activity:** Feature Development
+- **Details:** Completed the implementation of password hashing. Fixed final user authentication bugs. Made final changes to article display CSS.
+- **Contributors:** Bhargav
+- **Notes:** Password hashing enhances security, ensuring safe interactions with the platform.
 
 ## February 17, 2024
-- **Activity:** Database Integrity Check
-- **Details:** Added a check to confirm whether an article is already in the database, preventing duplicate entries and maintaining database integrity. Work continued on the specific search feature, including adding alerts for topic deletion and further improving homepage CSS.
+**Activity:** Feature Development
+- **Details:** Added a check to ensure that duplicate articles aren’t displayed. Added a check to confirm whether an article is already in the database.
+- **Contributors:** Padraig
+- **Notes:** Database integrity checks are essential for maintaining data consistency and reliability.
 
 ## February 18, 2024
-- **Activity:** Feature Completion and Security Enhancement
-- **Details:** Completed the implementation of the specific search feature, providing users with robust search functionality. Continued work on profile page CSS and fixed a username check bug in the sign-up form for improved data validation. Additionally, improved the CSS of the forms and added a separate .env file for storing API keys securely. Began implementing a sort by function in the liked articles page to enhance user navigation and content discovery.
+**Activity:** Feature Implementation and UI Enhancement
+- **Details:** Completed implementation of specific search feature. Continued profile page CSS. Fixed a username check bug from sign-up form. Improved the CSS of the forms. Added separate .env file for storing API key securely.
+- **Contributors:** Bhargav
+- **Notes:** Feature implementations enhance platform functionality, while UI enhancements improve user experience.
 
+**Activity:** Sort by Function Implementation
+- **Details:** Began implementation of a sort by function in the liked articles page.
+- **Contributors:** Padraig
+- **Notes:** Sorting function enhances user control and organisation of liked articles.
+
+## February 19, 2024
+**Activity:** Form Functionality and CSS Adjustment
+- **Details:** Added a password visibility feature to the forms. Adjusted CSS for article display slightly. Fixed redirect error on pre-logged-in homepage.
+- **Contributors:** Bhargav
+- **Notes:** Form functionality enhancements improve user interaction, while CSS adjustments enhance visual appeal and consistency.
+
+**Activity:** Article Functionality and Bug Fixes
+- **Details:** Fixed article refresh bug. Completed implementation of sorting function in the liked articles page. Fixed invalid login bug.
+- **Contributors:** Padraig
+- **Notes:** Bug fixes ensure smooth functionality and user experience.
+
+## February 20, 2024
+**Activity:** Documentation and Testing
+- **Details:** Completed User Guide. Added password strength test. Completed error handling for login and sign-up forms. Wrote first draft of Technical Spec.
+- **Contributors:** Bhargav
+- **Notes:** Documentation completion marks a significant milestone in project documentation.
+
+**Activity:** Algorithm Modification and UI Refinements
+- **Details:** Modified Article Generation algorithm. Modified profile CSS. Modified Liked Articles display. Added Share button to each Liked Article. Cleaned files and removed redundant code.
+- **Contributors:** Padraig
+- **Notes:** Algorithm modifications improve content relevance, while UI refinements enhance user experience.
+
+## February 21, 2024
+**Activity:** UI Enhancement and Functionality Addition
+- **Details:** Added a profanity check. Added a loading screen. Fixed article cap on homepage bug.
+- **Contributors:** Padraig
+- **Notes:** UI enhancements and functionality additions contribute to a smoother and more enjoyable user experience.
+
+**Activity:** Technical Specification and Testing
+- **Details:** Continued Technical Specification. Removed redundant About Us section. Added CSS animations to every page. Fixed final CSS on Profile and Liked Articles pages. Improved readability of navigation bar.
+- **Contributors:** Bhargav
+- **Notes:** Testing phases ensure the stability and reliability of the project.
+
+## February 22, 2024
+**Activity:** Documentation and Testing
+- **Details:** Completed Technical Specification. Improved User Guide. Completed Blog. Completed all testing phases of the pre-logged-in stage of the project.
+- **Contributors:** Bhargav
+- **Notes:** Testing phases ensure the stability and reliability of the project.
+
+**Activity:** UI Refinement and Input Field Functionality
+- **Details:** Added "Enter" key functionality for input fields. Styled input fields with respective buttons format. Added a character limit for the 'Add Topic' input field. Implemented a more detailed profanity check. Completed all testing phases of the logged-in stage of the project.
+- **Contributors:** Padraig
+- **Notes:** UI refinement and input field functionality enhancements improve user interaction and data integrity.
 
